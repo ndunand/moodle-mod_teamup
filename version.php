@@ -27,9 +27,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version    = 2025032900;
+$plugin->version    = 2026021700;
 $plugin->requires   = 2015051100;
 $plugin->component  = 'mod_teamup';
 $plugin->maturity   = MATURITY_STABLE;
 $plugin->cron       = 0;
-$plugin->release    = '4.5.3.0';
+$plugin->release    = '5.2.0.0';

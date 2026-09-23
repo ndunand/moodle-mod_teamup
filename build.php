@@ -125,10 +125,11 @@ $PAGE->set_heading($course->fullname);
 
 $output = $PAGE->get_renderer('mod_teamup');
 echo $output->header();
+/*
 echo ('<div id="protectAll" class="modal" style="display:none;">
         <h4 class="modal-title">'.get_string('pleasewait', 'mod_teamup').'</h4>
        </div><!-- /.modal -->');
-
+*/
 if (!is_null($action) && $action == "create-groups") {
     $data           = new stdClass();
     $data->courseid = $course->id;
